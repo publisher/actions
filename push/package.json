@@ -1,0 +1,7 @@
+{
+  "name": "push",
+  "private": true,
+  "dependencies": {
+    "publisher-push-handler": "0.0.0-alpha.0"
+  }
+}
