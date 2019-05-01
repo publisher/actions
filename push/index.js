@@ -1,6 +1,6 @@
 "use strict";
 
-const pushHandler = require("publisher-push-handler");
+const pushHandler = require("@publisher/push-handler");
 
 const token = process.env.GITHUB_TOKEN;
 const eventPayload = require(process.env.GITHUB_EVENT_PATH);
