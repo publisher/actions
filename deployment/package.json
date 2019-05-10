@@ -2,7 +2,7 @@
   "name": "deployment",
   "private": true,
   "dependencies": {
-    "@publisher/deployment-handler": "0.0.0-rc.3",
-    "@publisher/npm-auth": "0.0.0-rc.3"
+    "@publisher/deployment-handler": "0.0.0-rc.4",
+    "@publisher/npm-auth": "0.0.0-rc.4"
   }
 }
