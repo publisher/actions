@@ -2,6 +2,6 @@
   "name": "push",
   "private": true,
   "dependencies": {
-    "@publisher/push-handler": "0.0.0-rc.4"
+    "@publisher/push-handler": "0.0.0-rc.5"
   }
 }
