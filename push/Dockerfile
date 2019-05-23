@@ -1,4 +1,4 @@
-FROM node:11
+FROM node:12
 
 LABEL "com.github.actions.name"="Publisher Push Handler"
 LABEL "com.github.actions.description"="Push handler"
