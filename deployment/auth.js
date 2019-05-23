@@ -28,7 +28,7 @@ async function writeAuthCredentials(
   const registryScheme = sslStrict ? "https" : "http";
   const lines = [
     `//${registryUrl}/:_authToken = ${token}`,
-    `//${registryUrl}/:access = public`,
+    `access = public`,
     `registry = ${registryScheme}://${registryUrl}`,
     `strict-ssl = ${String(sslStrict)}`
   ];
