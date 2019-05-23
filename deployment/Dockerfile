@@ -9,10 +9,6 @@ LABEL "repository"="http://github.com/publisher/gh-actions"
 
 WORKDIR /
 
-RUN echo "//registry.npmjs.org/:_authToken = \${NPM_AUTH_TOKEN}" > ~/.npmrc && \
-    echo "//registry.npmjs.org/:access = public" >> ~/.npmrc && \
-    echo "registry = https://registry.npmjs.org" >> ~/.npmrc
-
 COPY . /
 RUN npm ci
 
