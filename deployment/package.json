@@ -2,6 +2,6 @@
   "name": "deployment",
   "private": true,
   "dependencies": {
-    "@publisher/deployment-handler": "0.1.0"
+    "@publisher/deployment-handler": "0.1.3"
   }
 }
