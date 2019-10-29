@@ -1,0 +1,9 @@
+name: "Merge base"
+description: "Annotate PR commits with target branch merge base sha"
+inputs:
+  repo_token:
+    description: "GitHub API Token"
+    required: true
+runs:
+  using: "node12"
+  main: "dist/index.js"

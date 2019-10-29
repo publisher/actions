@@ -1,7 +1,0 @@
-{
-  "name": "push",
-  "private": true,
-  "dependencies": {
-    "@publisher/push-handler": "0.2.1"
-  }
-}

@@ -1,0 +1,19 @@
+{
+  "name": "@publisher/merge-base",
+  "private": true,
+  "files": [
+    "action.yml",
+    "dist/index.js"
+  ],
+  "scripts": {
+    "prepare": "ncc build index.js"
+  },
+  "dependencies": {
+    "@actions/core": "^1.2.0",
+    "@actions/github": "^1.1.0"
+  },
+  "devDependencies": {
+    "@zeit/ncc": "^0.20.5"
+  },
+  "license": "MIT"
+}
